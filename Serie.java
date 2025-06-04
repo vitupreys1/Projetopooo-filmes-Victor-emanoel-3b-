@@ -24,7 +24,7 @@ public class Serie extends Produções {
 
             System.out.println("Episódios:");
             for (Episódio ep : episodios) {
-                System.out.println("   T" + ep.getNumeroTemporada() + "E" + ep.getNome());
+                System.out.println("   T" + ep.getNumeroTemporada() + "E" + ep.getNumeroEpisodio());
             }
         }
     }
